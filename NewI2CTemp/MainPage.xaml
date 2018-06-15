@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="NewI2CTemp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NewI2CTemp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="640" Height="480">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="Title" HorizontalAlignment="Center" Margin="10,108,-10,0" TextWrapping="Wrap" Text="TMP102 Temp Data" VerticalAlignment="Top" Height="67" Width="640" FontSize="48" TextAlignment="Center" SelectionChanged="Title_SelectionChanged"/>
+        <TextBlock x:Name="Text_X_Axis" HorizontalAlignment="Center" Margin="227,209,226,0" TextWrapping="Wrap" Text="Temp: -- " VerticalAlignment="Top" Width="187" FontSize="16" Foreground="#FFC71818" TextAlignment="Center" RenderTransformOrigin="0.494,0.363" Height="24"/>
+        <TextBlock x:Name="Text_Y_Axis" HorizontalAlignment="Center" Margin="164,238,164,0" TextWrapping="Wrap" Text="Celsius: -- " VerticalAlignment="Top" Width="312" FontSize="32" Foreground="#FF14D125" TextAlignment="Center"/>
+        <TextBlock x:Name="Text_Status" HorizontalAlignment="Center" Margin="-348,321,-358,0" TextWrapping="Wrap" Text="I2C Status: Not Initialized" VerticalAlignment="Top" Width="1346" FontSize="32" TextAlignment="Center"/>
+        <TextBlock x:Name="AIO_Status" HorizontalAlignment="Center" Margin="-348,378,-358,0" TextWrapping="Wrap" Text="AIO Status: Unknown" VerticalAlignment="Top" Width="1346" FontSize="32" TextAlignment="Center"/>
+    </Grid>
+
+</Page>

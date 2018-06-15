@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="NewI2CTemp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NewI2CTemp"
+    RequestedTheme="Light">
+
+</Application>
